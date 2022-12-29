@@ -2,13 +2,11 @@
 
 get_header(); ?>
 
-<div class="max-w-4xl mx-auto px-4">
+<div class="max-w-4xl px-4 mx-auto">
 
-  <!-- example react component -->
-  <div id="render-react-example-here"></div>
-  <!-- end example react component -->
 
-  <div class="prose max-w-full">
+
+  <div class="max-w-full prose">
     <?php if (have_posts()) {
       while(have_posts()) {
         the_post(); ?>
